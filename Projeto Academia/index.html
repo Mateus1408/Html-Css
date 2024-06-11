@@ -13,15 +13,17 @@
 <body>
 
     <header>
-        <img src="Imagens/LOGOTIPO.png" alt="logo">
+       <div class="LOGO"> 
+        <img  src="Imagens/LOGOTIPO.png" alt="logo">
+    </div>
         <h1> d'Job Academia</h1>
         <nav>
             <a href="cadastro.html">Faça sua inscrição<a>
                     <a href="telefone.html">Fale conosco</a>
                     <a href="endereco.html">Onde nos encontrar</a>
         </nav>
+  
     </header>
-    <img src="Imagens/LOGOTIPO.png" alt="mão com alter">
     <main>
 
         Bem-vindo à Academia d'Job! Aqui, acreditamos que o fitness não é apenas um objetivo, mas sim um estilo de vida.
@@ -34,11 +36,58 @@
 
 
 
-        <div>
+        <form action="formulario.php" method="POST" autocomplete="on">
+            <fieldset>
+                <legend>Cadastre-se</legend>
+                <div>
+                    <label for="inome"> Nome completo: </label>
+                    <input class="inputpessoais" type="text" name="nome" id="inome" required maxlength="50" placeholder="Digite aqui"
+                        autocomplete="name">
+                </div>
 
-        </div>
+                <div>
+                    <label for="idatadenascimento"> Data de Nascimento</label>
+                    <input class="inputpessoais" type="date" name="data de nascimento" id="idatadenascimento">
+                </div>
 
+                <div>
+                    <label for="iemail">Endereço de e-mail</label>
+                    <input class="inputpessoais" type="text" name="e-mail" id="iemail" placeholder="blablabla@email.com">
+
+                </div>
+
+                <div>
+                    <label for="itelefone"> Seu WhatsApp</label>
+                    <input class="inputpessoais" type="text" placeholder="(xx) 9xxxx-xxxx">
+
+                </div>
+
+
+                
     </main>
+
+    <section></section>
+
+    <nav>
+
+        <img src="Imagens/celularbran.png" alt="celular branco">
+
+  <a href="#" target="iframe">
+    <img src="Imagens/celularbran.png" alt="Celualar branco">
+</a><br>
+
+
+
+    </nav>
+     <a href="Imagens/celularbran.png"></a>
+
+
+
+</body>
+
+
+
+
 
 
 
