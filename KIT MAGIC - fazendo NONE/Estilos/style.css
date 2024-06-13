@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkgreen;
+    background-image: url(../Imagens/imagens/back-phone.jpg);
+    text-align: center;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    color: rgba(255, 255, 255, 0.548);
+    background-color: rgb(72, 185, 72);
+}
+
+p{
+    text-align: justify;
+    color: black;
+    padding: 5px;
+}
+
+
+img{
+    margin: auto;
+}
+
