@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container{
+    margin: auto;
+    background-color: rgba(7, 7, 252, 0.904);
+    width: 80%;
+}
+
+.cabeca{
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.headinhos{
+    background-color: white;
+    flex: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.títuloheader{
+    flex-grow: 5;
+}
+
+.carrinho{
+    background-color: gray;
+    color: white;
+}
+
+.imglogo{
+    width: 100px;
+}
+
+.menu{
+    margin: 10px;
+    background-color: gray;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.itens > a{
+    color: white;
+    text-decoration: none;
+}
+
+.itens:hover{
+    background-color: black;
+}
+
+
+main{
+    display: flex;
+    background-color: green ;
+}
+
+.lateral{
+    background-color: darkgreen;
+    width: 07%;
+    display: flex;
+    padding: 5px;
+}
+
+.corpo{
+    background-color: white;
+    width: 83%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.menulat > ul > li{
+    padding: 10px;
+}
+
+.menulat > ul > li > a{
+    color: white;
+    font-weight: bold;
+}
+
+.produto{
+    background-color:gray;
+    margin: 1px;
+    height: 204.1px;
+}
+
+.produto > img{
+    width: 204.1px;
+    height: 204.1px;
+}
+
+footer{
+    height: 30px;
+    background-color: black;
+}
+
+/*itens$*div5*/
+
+@media screen and (max-width:768px){} /*TABLET*/
+@media screen and (min-width:768px) and (max-width:992px){} /*TABLET*/
+@media screen and (min-width:992px) and (max-width:1200px){} /*DESKTOP*/
+@media screen and (min-width:1200px){} /*GRANDES TELAS*/
+@media print{} /*IMPRESSORA*/
