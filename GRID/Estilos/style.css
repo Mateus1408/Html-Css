@@ -8,13 +8,10 @@
 
 
 .container{
-    background-image: url();
+    background-image: url(../Imagem/);
     display: grid;
     grid-template-columns: 300fr 200fr 300fr;
     grid-template-rows: 100fr 100fr 100fr 100fr 100fr 100fr; 
-    grid-template-areas: "Comeco Comeco Comeco"
-    "Lado Metade Metade"
-    "Fim Fim Fim";
 
 }
 
@@ -28,14 +25,13 @@
     color: grey;
     border: blue solid;
 }
+
 .Metade{
     background-color: green;
-    grid-area: Metade;
   /* justify e align para alinhar e tem q transformar ele em pai pra funfar*/
 }
 
 .Fim{
     background-color: blue;
-    grid-area: Fim;
 
 }
