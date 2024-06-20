@@ -8,6 +8,7 @@
 
 
 .container{
+    background-image: url();
     display: grid;
     grid-template-columns: 300fr 200fr 300fr;
     grid-template-rows: 100fr 100fr 100fr 100fr 100fr 100fr; 
@@ -19,7 +20,7 @@
 
 .Comeco{
     background-color: red;
-    grid-area: Comeco;
+
 }
 
 
