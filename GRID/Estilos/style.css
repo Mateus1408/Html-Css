@@ -61,6 +61,7 @@ main{
    background-image: url(../Imagem/boreal.png);
    display: grid;
    grid-template-columns: 1fr 1fr 1fr 1fr -1fr;
+   grid-template-rows: 2fr 2fr 2fr 2fr;
    grid-template-areas: "Comeco Comeco Comeco Comeco Comeco"
                         "Late Conteudo Conteudo Conteudo Conteudo"
                         "Late Anão Anão Anão Anão"
